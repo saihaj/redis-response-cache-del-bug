@@ -1,0 +1,16 @@
+{
+  "name": "redis-response-cache-del-bug",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Saihajpreet Singh <saihajpreet.singh@gmail.com> (https://saihaj.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "@envelop/response-cache": "^0.5.1",
+    "@envelop/response-cache-redis": "^0.1.3",
+    "graphql": "^16.1.0",
+    "graphql-yoga": "^2.0.0-alpha.0",
+    "ioredis": "^4.28.2"
+  }
+}
